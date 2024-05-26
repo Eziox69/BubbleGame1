@@ -21,7 +21,7 @@ function runtimer(){
      }else{
          clearInterval(timerint);
          
-         document.querySelector("#pbtm").innerHTML=`<h1>Game Over</h1>  <h2>Your Score is ${score}</h2>`
+         document.querySelector("#pbtm").innerHTML=`<h1>Game Over</h1> <br><h2>Your Score is ${score}</h2>`
          document.querySelector("#hitval").innerHTML="-";
      }
     },1000)
